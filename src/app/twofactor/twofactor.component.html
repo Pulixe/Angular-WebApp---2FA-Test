@@ -1,0 +1,22 @@
+<div class="row align-items-center" style="height: 50vh;">
+  <div class="mx-auto col-10 col-md-8 col-lg-6">
+    <h1>Autenticacion de 2 Factores 2FA</h1>
+    <form [formGroup]="myForm" (ngSubmit)="verificacionCodigo()">
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+          <input  formControlName="codigo"  class="form-control form-control-lg"
+            placeholder="Introduzca el codigo de 6 digitos" />
+          <label class="form-label" for="form3Example3">Introduzca el codigo</label>
+        </div>
+  
+        <div class="text-center text-lg-start mt-4 pt-2">
+          <button  class="btn btn-primary btn-lg"
+            style="padding-left: 2.5rem; padding-right: 2.5rem;">Enviar</button>
+        </div>
+  
+  </form>
+  </div>
+
+</div>
+
+ 
