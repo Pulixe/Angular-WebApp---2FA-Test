@@ -1,27 +1,19 @@
-# BlancaDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+# Aplicación Web en Angular para Autenticación de 2 Factores 🔐🌐
 
-## Development server
+Este proyecto es una aplicación web desarrollada con **Angular** que implementa formularios, inicio de sesión y manejo de componentes. La aplicación se conecta a una API para la autenticación de 2 factores, mejorando la seguridad del proceso de inicio de sesión.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Aprendizajes y Retos 📚
 
-## Code scaffolding
+A través de este proyecto, adquirí habilidades en varias áreas clave:
+- **Angular**: Familiarización con el framework Angular y sus conceptos, como la creación de componentes y la gestión del estado de la aplicación.
+- **Formularios y Validación**: Implementación de formularios en Angular, incluyendo la validación de datos de entrada para garantizar una buena experiencia de usuario.
+- **Conexión a APIs**: Aprendí a conectar la aplicación con una API para manejar la autenticación de 2 factores, mejorando la seguridad de la aplicación.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologías y Herramientas Utilizadas 🚀
 
-## Build
+- **Angular**: Framework utilizado para desarrollar la aplicación web.
+- **TypeScript**: Lenguaje de programación utilizado en el desarrollo de la aplicación Angular.
+- **HTML y CSS**: Tecnologías utilizadas para estructurar y diseñar la interfaz de usuario.
+- **API REST**: Implementación de una API para gestionar la autenticación de usuarios y la verificación de 2 factores.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
